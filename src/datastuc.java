@@ -8,6 +8,9 @@ public class datastuc {
        System.out.println("litter "+totalVolume);
        final double litter = 2;
        totalVolume= litter*canValume;
+       double balance = canValume*cansPerPack;
+       int dollar = (int)balance;
        System.out.println("the amount  "+totalVolume);
+       System.out.println(dollar);
     }}
 
